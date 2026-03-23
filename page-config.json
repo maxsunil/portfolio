@@ -1,0 +1,169 @@
+{
+  "version": 1,
+  "projectName": "Portfolio",
+  "prompt": "Design a portfolio website showcasing projects, skills, and contact information.",
+  "seed": 2636980088,
+  "styleProfile": {
+    "industry": "portfolio",
+    "styleMode": "minimal",
+    "layoutStyle": "split",
+    "recommendedSections": [
+      "gallery",
+      "features",
+      "testimonials",
+      "cta"
+    ],
+    "paletteType": "editorial"
+  },
+  "theme": {
+    "mode": "minimal",
+    "paletteName": "editorial",
+    "density": "compact",
+    "colors": {
+      "background": "#f5f1ea",
+      "backgroundAlt": "#ffffff",
+      "foreground": "#171311",
+      "muted": "#63584f",
+      "line": "#ded4c7",
+      "accent": "#1f1f1f",
+      "accentSoft": "#e8e0d6",
+      "accentStrong": "#000000",
+      "card": "#fffdfa"
+    },
+    "spacing": {
+      "xs": 3,
+      "sm": 7,
+      "md": 14,
+      "lg": 20,
+      "xl": 27,
+      "xxl": 41
+    },
+    "typography": {
+      "display": 3.3,
+      "h1": 2.52,
+      "h2": 1.8,
+      "h3": 1.38,
+      "body": 1,
+      "small": 0.9,
+      "scale": 1.2,
+      "fontFamily": "\"IBM Plex Sans\", \"Segoe UI\", sans-serif"
+    },
+    "radius": {
+      "sm": 10,
+      "md": 16,
+      "lg": 24,
+      "xl": 32
+    }
+  },
+  "hero": {
+    "id": "hero",
+    "kind": "hero",
+    "variant": "minimal",
+    "eyebrow": "Creative",
+    "title": "Portfolio turns showcase work into a sharper digital experience.",
+    "subtitle": "A modern design engine with flexible layouts, purposeful spacing, and sections tuned for modern teams.",
+    "primaryCta": "Start building",
+    "secondaryCta": "View work",
+    "highlightItems": [
+      "Variant-driven sections",
+      "Theme-aware tokens",
+      "Responsive modern grids"
+    ],
+    "mediaHint": "editorial project frames"
+  },
+  "sections": [
+    {
+      "id": "gallery",
+      "kind": "gallery",
+      "variant": "mosaic",
+      "title": "Portfolio can lean visual when the industry demands it",
+      "subtitle": "Restaurants, portfolios, and lifestyle brands benefit from image-forward sections with stronger composition.",
+      "items": [
+        {
+          "title": "Editorial crops",
+          "caption": "Large media blocks create pace and focus."
+        },
+        {
+          "title": "Atmosphere-led storytelling",
+          "caption": "Visual sections can lead before copy takes over."
+        },
+        {
+          "title": "Responsive asymmetry",
+          "caption": "The layout collapses cleanly on smaller screens."
+        }
+      ]
+    },
+    {
+      "id": "features-1",
+      "kind": "features",
+      "variant": "zigzag",
+      "title": "Capabilities shaped for Portfolio",
+      "subtitle": "The engine can recompose this section without collapsing into the same card grid every time.",
+      "items": [
+        {
+          "title": "Adaptive layouts",
+          "description": "Switch between split, bento, grid, and zigzag compositions based on intent.",
+          "stat": "12+ patterns"
+        },
+        {
+          "title": "Design tokens",
+          "description": "Theme, spacing, and typography stay consistent even when the layout changes.",
+          "stat": "Token based"
+        },
+        {
+          "title": "Section intelligence",
+          "description": "Ordering responds to audience needs instead of repeating the same page skeleton.",
+          "stat": "Intent aware"
+        },
+        {
+          "title": "Controlled randomness",
+          "description": "Variation is seeded and constrained to preserve hierarchy and alignment.",
+          "stat": "Stable output"
+        },
+        {
+          "title": "Motion built in",
+          "description": "Reveal and hover interactions add polish without becoming noisy.",
+          "stat": "60fps"
+        },
+        {
+          "title": "Regeneration controls",
+          "description": "Swap a weak hero or features block without disturbing the rest of the page.",
+          "stat": "Section scoped"
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "kind": "testimonials",
+      "variant": "stacked",
+      "title": "Teams use Portfolio to escape lookalike websites",
+      "subtitle": "The system varies structure and visual rhythm while preserving trust cues.",
+      "items": [
+        {
+          "quote": "Every page stopped looking like the last one, but the product still felt coherent.",
+          "name": "Nina Patel",
+          "role": "Growth Lead"
+        },
+        {
+          "quote": "We can regenerate a weak section in seconds instead of reworking the whole page.",
+          "name": "Marcus Chen",
+          "role": "Product Designer"
+        },
+        {
+          "quote": "The generated layouts finally reflect the industry context instead of a generic startup template.",
+          "name": "Elena Brooks",
+          "role": "Creative Director"
+        }
+      ]
+    },
+    {
+      "id": "cta",
+      "kind": "cta",
+      "variant": "minimal",
+      "title": "Launch a sharper Portfolio experience",
+      "subtitle": "Shuffle the full design or surgically regenerate one section when the composition feels flat.",
+      "primaryCta": "Shuffle Design",
+      "secondaryCta": "Regenerate Hero"
+    }
+  ]
+}

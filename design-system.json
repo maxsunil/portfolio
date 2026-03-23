@@ -1,0 +1,75 @@
+{
+  "theme": {
+    "mode": "minimal",
+    "paletteName": "editorial",
+    "density": "compact",
+    "colors": {
+      "background": "#f5f1ea",
+      "backgroundAlt": "#ffffff",
+      "foreground": "#171311",
+      "muted": "#63584f",
+      "line": "#ded4c7",
+      "accent": "#1f1f1f",
+      "accentSoft": "#e8e0d6",
+      "accentStrong": "#000000",
+      "card": "#fffdfa"
+    },
+    "spacing": {
+      "xs": 3,
+      "sm": 7,
+      "md": 14,
+      "lg": 20,
+      "xl": 27,
+      "xxl": 41
+    },
+    "typography": {
+      "display": 3.3,
+      "h1": 2.52,
+      "h2": 1.8,
+      "h3": 1.38,
+      "body": 1,
+      "small": 0.9,
+      "scale": 1.2,
+      "fontFamily": "\"IBM Plex Sans\", \"Segoe UI\", sans-serif"
+    },
+    "radius": {
+      "sm": 10,
+      "md": 16,
+      "lg": 24,
+      "xl": 32
+    }
+  },
+  "styleProfile": {
+    "industry": "portfolio",
+    "styleMode": "minimal",
+    "layoutStyle": "split",
+    "recommendedSections": [
+      "gallery",
+      "features",
+      "testimonials",
+      "cta"
+    ],
+    "paletteType": "editorial"
+  },
+  "variants": {
+    "hero": "minimal",
+    "sections": [
+      {
+        "kind": "gallery",
+        "variant": "mosaic"
+      },
+      {
+        "kind": "features",
+        "variant": "zigzag"
+      },
+      {
+        "kind": "testimonials",
+        "variant": "stacked"
+      },
+      {
+        "kind": "cta",
+        "variant": "minimal"
+      }
+    ]
+  }
+}
